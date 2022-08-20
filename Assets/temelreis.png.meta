@@ -1,0 +1,2316 @@
+fileFormatVersion: 2
+guid: 202b320f97737014a837071c0f717a54
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1167562022243325526
+    second: temelreis_0
+  - first:
+      213: 9071060713810568598
+    second: temelreis_1
+  - first:
+      213: -5928484229142260061
+    second: temelreis_2
+  - first:
+      213: 4189398782662070102
+    second: temelreis_3
+  - first:
+      213: -5832518585173065912
+    second: temelreis_4
+  - first:
+      213: -267490193262084729
+    second: temelreis_5
+  - first:
+      213: 6149244816540436393
+    second: temelreis_6
+  - first:
+      213: -2893502508615906755
+    second: temelreis_7
+  - first:
+      213: 6248398659986769615
+    second: temelreis_8
+  - first:
+      213: -8395639499131309169
+    second: temelreis_9
+  - first:
+      213: -1959305359493008203
+    second: temelreis_10
+  - first:
+      213: 7643164978642628362
+    second: temelreis_11
+  - first:
+      213: 5159709420757256710
+    second: temelreis_12
+  - first:
+      213: -437266567134252556
+    second: temelreis_13
+  - first:
+      213: 6195712966197933596
+    second: temelreis_14
+  - first:
+      213: -6441227559509678249
+    second: temelreis_15
+  - first:
+      213: -6189499800025146387
+    second: temelreis_16
+  - first:
+      213: 5650244945563036312
+    second: temelreis_17
+  - first:
+      213: 1657546323246344338
+    second: temelreis_18
+  - first:
+      213: -1822925866334362326
+    second: temelreis_19
+  - first:
+      213: -3760775444198873799
+    second: temelreis_20
+  - first:
+      213: -1296715739682738717
+    second: temelreis_21
+  - first:
+      213: -1045869471378978067
+    second: temelreis_22
+  - first:
+      213: 7323642165853286432
+    second: temelreis_23
+  - first:
+      213: -8900089559719108601
+    second: temelreis_24
+  - first:
+      213: -8678853727738666210
+    second: temelreis_25
+  - first:
+      213: 4102704089649880213
+    second: temelreis_26
+  - first:
+      213: -8617262937624161378
+    second: temelreis_27
+  - first:
+      213: -4389681796118271458
+    second: temelreis_28
+  - first:
+      213: 5839408651121109489
+    second: temelreis_29
+  - first:
+      213: 1908744985735066120
+    second: temelreis_30
+  - first:
+      213: -3079502348254337387
+    second: temelreis_31
+  - first:
+      213: -7073804422682601937
+    second: temelreis_32
+  - first:
+      213: -6168785325332707105
+    second: temelreis_33
+  - first:
+      213: 6509052140766432599
+    second: temelreis_34
+  - first:
+      213: -5999460798942745942
+    second: temelreis_35
+  - first:
+      213: -2435787560285173219
+    second: temelreis_36
+  - first:
+      213: -6116592139872231992
+    second: temelreis_37
+  - first:
+      213: 287506042206828259
+    second: temelreis_38
+  - first:
+      213: -2054332127113932942
+    second: temelreis_39
+  - first:
+      213: 6582376733216374906
+    second: temelreis_40
+  - first:
+      213: -141460911421143836
+    second: temelreis_41
+  - first:
+      213: 5215762507457467476
+    second: temelreis_42
+  - first:
+      213: -7899756807641003081
+    second: temelreis_43
+  - first:
+      213: -7290387713345708598
+    second: temelreis_44
+  - first:
+      213: -2383145834703671137
+    second: temelreis_45
+  - first:
+      213: -491652103789708182
+    second: temelreis_46
+  - first:
+      213: -8778649765661389579
+    second: temelreis_47
+  - first:
+      213: -7872567449183336577
+    second: temelreis_48
+  - first:
+      213: -4185743251518698037
+    second: temelreis_49
+  - first:
+      213: 5091694175402924797
+    second: temelreis_50
+  - first:
+      213: -3818444872826160944
+    second: temelreis_51
+  - first:
+      213: -1421794391797213988
+    second: temelreis_52
+  - first:
+      213: -5992350909599173544
+    second: temelreis_53
+  - first:
+      213: -6697462443385011912
+    second: temelreis_54
+  - first:
+      213: 7060700191812128344
+    second: temelreis_55
+  - first:
+      213: 874335837892457360
+    second: temelreis_56
+  - first:
+      213: -7149972275389535057
+    second: temelreis_57
+  - first:
+      213: 8107545777911416428
+    second: temelreis_58
+  - first:
+      213: -7376390299582677106
+    second: temelreis_59
+  - first:
+      213: 4302139569878176201
+    second: temelreis_60
+  - first:
+      213: 7860778413840872446
+    second: temelreis_61
+  - first:
+      213: -555613438291124236
+    second: temelreis_62
+  - first:
+      213: 1156485209963887382
+    second: temelreis_63
+  - first:
+      213: 3236830212378249062
+    second: temelreis_64
+  - first:
+      213: -1921841103933542163
+    second: temelreis_65
+  - first:
+      213: -1162259361721481011
+    second: temelreis_66
+  - first:
+      213: -7450440359922070091
+    second: temelreis_67
+  - first:
+      213: 1500275474383584663
+    second: temelreis_68
+  - first:
+      213: -1238229818430129960
+    second: temelreis_69
+  - first:
+      213: 3023793436469551632
+    second: temelreis_70
+  - first:
+      213: -3241685454033358798
+    second: temelreis_71
+  - first:
+      213: 7163664289787647729
+    second: temelreis_72
+  - first:
+      213: -1269805444817116938
+    second: temelreis_73
+  - first:
+      213: 7152118578990472581
+    second: temelreis_74
+  - first:
+      213: -2647584937520865354
+    second: temelreis_75
+  - first:
+      213: -4937172473532548749
+    second: temelreis_76
+  - first:
+      213: 680639986546566757
+    second: temelreis_77
+  - first:
+      213: -5232663501826110436
+    second: temelreis_78
+  - first:
+      213: -3381091993592570625
+    second: temelreis_79
+  - first:
+      213: -384367666167223463
+    second: temelreis_80
+  - first:
+      213: -8193949575642001824
+    second: temelreis_81
+  - first:
+      213: 7581906845577976825
+    second: temelreis_82
+  - first:
+      213: -1626826155011618104
+    second: temelreis_83
+  - first:
+      213: -187750873964058612
+    second: temelreis_84
+  - first:
+      213: -4308981510408981441
+    second: temelreis_85
+  - first:
+      213: -9006208591143309102
+    second: temelreis_86
+  - first:
+      213: -2198186794007736421
+    second: temelreis_87
+  - first:
+      213: 5196299788846738255
+    second: temelreis_88
+  - first:
+      213: 6308530507228837303
+    second: temelreis_89
+  - first:
+      213: 1510256181492376210
+    second: temelreis_90
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: temelreis_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 574
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa923fad68cfbcfe0800000000000000
+      internalID: -1167562022243325526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 574
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6952eae98a1e2ed70800000000000000
+      internalID: 9071060713810568598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 574
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a65879010bc9bda0800000000000000
+      internalID: -5928484229142260061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 574
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fc6071ffbb32a30800000000000000
+      internalID: 4189398782662070102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 574
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f35e0bf3bbe0fa0800000000000000
+      internalID: -5832518585173065912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 574
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d76b1261fa94cf0800000000000000
+      internalID: -267490193262084729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 574
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a70ece9491865550800000000000000
+      internalID: 6149244816540436393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_7
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 574
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a4f318cc638d7d0800000000000000
+      internalID: -2893502508615906755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_8
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 575
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6c98fc975c6b650800000000000000
+      internalID: 6248398659986769615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_9
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 574
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f833a088b52bc7b80800000000000000
+      internalID: -8395639499131309169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_10
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 574
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b476e808262fc4e0800000000000000
+      internalID: -1959305359493008203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 574
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f23b78d0af11a60800000000000000
+      internalID: 7643164978642628362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_12
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 574
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a09708168fa9740800000000000000
+      internalID: 5159709420757256710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 574
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1fec9bf548ee9f0800000000000000
+      internalID: -437266567134252556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_14
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 574
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c167280dd189bf550800000000000000
+      internalID: 6195712966197933596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_15
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 574
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75728f569a92c96a0800000000000000
+      internalID: -6441227559509678249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_16
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 574
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb562aa9ba7a1aa0800000000000000
+      internalID: -6189499800025146387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_17
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 574
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a2b3a77d3b96e40800000000000000
+      internalID: 5650244945563036312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 27
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2986ad35999c00710800000000000000
+      internalID: 1657546323246344338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 507
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25e445359aa3b6e0800000000000000
+      internalID: -1822925866334362326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 507
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935a380b8aa0fcbc0800000000000000
+      internalID: -3760775444198873799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_21
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 501
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed6d81b7e3210ee0800000000000000
+      internalID: -1296715739682738717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_22
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 507
+        width: 18
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deac70dc1435c71f0800000000000000
+      internalID: -1045869471378978067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_23
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 501
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020f1cd5fbdc2a560800000000000000
+      internalID: 7323642165853286432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 507
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700a7cb33b78c7480800000000000000
+      internalID: -8900089559719108601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 507
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13ef8464848e8780800000000000000
+      internalID: -8678853727738666210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_26
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 507
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c9f1ae1abbfe830800000000000000
+      internalID: 4102704089649880213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_27
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 501
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93d5c2b305596880800000000000000
+      internalID: -8617262937624161378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_28
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 507
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a2f59f9a7b413c0800000000000000
+      internalID: -4389681796118271458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_29
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 507
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9aa6cca3fb90150800000000000000
+      internalID: 5839408651121109489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_30
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 507
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802fb8993793d7a10800000000000000
+      internalID: 1908744985735066120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_31
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 507
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596a15f1ee86345d0800000000000000
+      internalID: -3079502348254337387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_32
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 507
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f269a6f2b5cc4dd90800000000000000
+      internalID: -7073804422682601937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_33
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 507
+        width: 21
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8c6e32e62146aa0800000000000000
+      internalID: -6168785325332707105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 437
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d01e28f6cc45a50800000000000000
+      internalID: 6509052140766432599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 437
+        width: 24
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaae22b9032adbca0800000000000000
+      internalID: -5999460798942745942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_36
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 437
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a03e88e18523ed0800000000000000
+      internalID: -2435787560285173219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_37
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 437
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd18fa1bdf7d1ba0800000000000000
+      internalID: -6116592139872231992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_38
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 437
+        width: 24
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6348cd83d6df300800000000000000
+      internalID: 287506042206828259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_39
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 437
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f83b090db8d73e0800000000000000
+      internalID: -2054332127113932942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 437
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70882193cc495b50800000000000000
+      internalID: 6582376733216374906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 437
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4c321fc0e690ef0800000000000000
+      internalID: -141460911421143836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_42
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 437
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4549dc1cd5c126840800000000000000
+      internalID: 5215762507457467476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_43
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 437
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb8594c90d6e5290800000000000000
+      internalID: -7899756807641003081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_44
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 437
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd1827300753da90800000000000000
+      internalID: -7290387713345708598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 377
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9039826d7d5deed0800000000000000
+      internalID: -2383145834703671137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_46
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 377
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c7a88340d4d29f0800000000000000
+      internalID: -491652103789708182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_47
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 377
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fccf26ac88fb2680800000000000000
+      internalID: -8778649765661389579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_48
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 377
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77cf199d950fb290800000000000000
+      internalID: -7872567449183336577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_49
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 377
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd4d3490b049e5c0800000000000000
+      internalID: -4185743251518698037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_50
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 377
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa11d520e459a640800000000000000
+      internalID: 5091694175402924797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_51
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 377
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8f8c08e98220bc0800000000000000
+      internalID: -3818444872826160944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_52
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 377
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4d84d9885c44ce0800000000000000
+      internalID: -1421794391797213988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_53
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 377
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8543ad7b894e6dca0800000000000000
+      internalID: -5992350909599173544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_54
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 377
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83144857465dd03a0800000000000000
+      internalID: -6697462443385011912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_55
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 377
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e8e7e4a65acf160800000000000000
+      internalID: 7060700191812128344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_56
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 377
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09339f7efc3422c00800000000000000
+      internalID: 874335837892457360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: face383091236cc90800000000000000
+      internalID: -7149972275389535057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_58
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 312
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66c0acede9c38070800000000000000
+      internalID: 8107545777911416428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_59
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 312
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fbcb4ba1cc1a990800000000000000
+      internalID: -7376390299582677106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_60
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 312
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c19db4252544bb30800000000000000
+      internalID: 4302139569878176201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_61
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 312
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef33b07b158171d60800000000000000
+      internalID: 7860778413840872446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_62
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 312
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff593a85801a48f0800000000000000
+      internalID: -555613438291124236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_63
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 312
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bf3efcb29ac0010800000000000000
+      internalID: 1156485209963887382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_64
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 312
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667ce0fbde78bec20800000000000000
+      internalID: 3236830212378249062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_65
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 312
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0fb45c2bf3455e0800000000000000
+      internalID: -1921841103933542163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_66
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 312
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc808b7b443dedfe0800000000000000
+      internalID: -1162259361721481011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd8c9e77f7ba9890800000000000000
+      internalID: -7450440359922070091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_68
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 246
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d3ddb589c02d410800000000000000
+      internalID: 1500275474383584663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_69
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 246
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8fc226a8ce0dee0800000000000000
+      internalID: -1238229818430129960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_70
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 246
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012ece61c1ca6f920800000000000000
+      internalID: 3023793436469551632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_71
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 246
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2307ac631483303d0800000000000000
+      internalID: -3241685454033358798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_72
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 246
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f691f287b27a6360800000000000000
+      internalID: 7163664289787647729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_73
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 246
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0a1d7fcaeb06ee0800000000000000
+      internalID: -1269805444817116938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_74
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 246
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dd23c34fd614360800000000000000
+      internalID: 7152118578990472581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_75
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 246
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfd46ed683e14bd0800000000000000
+      internalID: -2647584937520865354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37971482bc3ab7bb0800000000000000
+      internalID: -4937172473532548749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_77
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 181
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566e80a267e127900800000000000000
+      internalID: 680639986546566757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 181
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cc088d448d167b0800000000000000
+      internalID: -5232663501826110436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_79
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 181
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc5ff0eeb2f311d0800000000000000
+      internalID: -3381091993592570625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95be4f2e4a37aaaf0800000000000000
+      internalID: -384367666167223463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_81
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 115
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e456c364e394e80800000000000000
+      internalID: -8193949575642001824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_82
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 115
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb17cafa18583960800000000000000
+      internalID: 7581906845577976825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_83
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cac7373b3a5c69e0800000000000000
+      internalID: -1626826155011618104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_84
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c086a1b2399f46df0800000000000000
+      internalID: -187750873964058612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_85
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34b850752c6334c0800000000000000
+      internalID: -4308981510408981441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_86
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0f4d7d005830380800000000000000
+      internalID: -9006208591143309102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_87
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 115
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fc631e1c87e71e0800000000000000
+      internalID: -2198186794007736421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ba5a47027fc1840800000000000000
+      internalID: 5196299788846738255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_89
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 49
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5f61282176c8750800000000000000
+      internalID: 6308530507228837303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temelreis_90
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 49
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292e0b1def185f410800000000000000
+      internalID: 1510256181492376210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
