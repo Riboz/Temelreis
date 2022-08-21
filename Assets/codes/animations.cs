@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public enum who{player,lover,fatboy,witch}
+
 public class animations : MonoBehaviour
 {
     // Start is called before the first frame update
-    public who Who; 
+    
     Animator animator;
     private string currentstate;
-    
+
     [Header("lover")]
      const string walkl="walk";
      const string kiss="kiss";
@@ -25,19 +25,13 @@ public class animations : MonoBehaviour
 
 
 
-    [Header("Temelreis")]
-    const string walk="walk";
-    const string punch="punch";
-    const string basamak="basamak";
-    const string ladder="ladder";
-    const string fall="fall";
-    const string win="win";
+    
     void Start()
     {
         animator=GetComponent<Animator>();
        
     }
-void AnimationState(string newstate)
+public void AnimationState(string newstate)
 {
     if(currentstate==newstate)return;
 
