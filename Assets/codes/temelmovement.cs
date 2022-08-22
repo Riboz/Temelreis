@@ -21,6 +21,7 @@ private Rigidbody2D rb;
     const string idle="idle";
 [SerializeField]float hiz=2.5f;
 float inputhorizontal;
+
 Vector3 flips;
 
 public void temelcanclimb ( bool canclimbs )
@@ -42,17 +43,19 @@ Debug.Log("burasicalisiyor");
     {
      if ( canclimb && !tirmaniyorzaten )
      {
-       if ( Input.GetKeyDown ( KeyCode.UpArrow ) )
+       if ( Input.GetKeyDown ( KeyCode.UpArrow )  )
        {
          tirmaniyorzaten = true ;
+         
         statemac.AnimationState( ladder ) ;
         StartCoroutine ( upladdergo ( ) ) ;
        
         canclimb = false ;
        }
-         if( Input.GetKeyDown ( KeyCode.DownArrow ) )
+         if( Input.GetKeyDown ( KeyCode.DownArrow )  )
        {
          tirmaniyorzaten = true ;
+         
          statemac.AnimationState( ladder ) ;
         StartCoroutine ( downladdergo ( ) ) ;
        
@@ -88,6 +91,8 @@ Debug.Log("burasicalisiyor");
         rb.constraints = RigidbodyConstraints2D.None ;
         
         rb.constraints = RigidbodyConstraints2D.FreezeRotation ;
+
+       
         
         yield break ;
     }
@@ -121,6 +126,9 @@ Debug.Log("burasicalisiyor");
           rb.constraints = RigidbodyConstraints2D.FreezeRotation ;
        
           colliders.isTrigger = false ;
+
+        
+        
       
 
           yield break ;
@@ -167,6 +175,7 @@ Debug.Log("burasicalisiyor");
     }
     private void flip( float flip )
     {
+
     flips = new Vector3 ( flip , 1 , 0 );
     
     this.gameObject.transform.localScale = flips;

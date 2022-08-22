@@ -5,6 +5,8 @@ using UnityEngine;
 public class ladder : MonoBehaviour
 {
     temelmovement temelmov;
+    
+    
    
    public void Start()
    {
@@ -15,11 +17,12 @@ public class ladder : MonoBehaviour
      if ( temeldegecek.CompareTag ( "Player" ) )
      {
      temelmov.temelcanclimb ( true ) ;
+    
 
      temelmov.saved = GameObject.FindGameObjectWithTag ( "Player" ).transform ;
      
      }
-     
+
     }
 
     
@@ -28,6 +31,7 @@ public class ladder : MonoBehaviour
      if ( temeldegecek.CompareTag ( "Player" ) )
      {
       temelmov.temelcanclimb ( false ) ;
+     
      }
 
     }
@@ -38,12 +42,16 @@ public float timer=0;
     {
      if ( temeldegecek.CompareTag ( "Player" ) )
      {
+        //if(Vector2.Distance(this.gameObject.transform.position.y,GameObject.FindGameObjectWithTag("Player").transform.position.y))
+        //amacım eğer temelreis merdivenin altındaysa o merdivenle aşağı gidememesi ve bunun için burada bir boolu ona göre aktifleştiricem ve temelmovementdeki 
+        //downladdere tıklamamasını sağlayacağım
         timer += Time.deltaTime ;
-        if ( timer > 1 )
+        if ( timer > 2)
         {
           temelmov.temelcanclimb ( true ) ;  
           timer = 0 ;
         }
+       
      }
     }
 }
