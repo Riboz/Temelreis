@@ -5,6 +5,11 @@ using UnityEngine;
 public class temelmovement : MonoBehaviour
 {
 public animations statemac;
+public Transform saved;
+Collider2D colliders;
+
+bool tirmaniyorzaten=false;
+bool canclimb;
 private Rigidbody2D rb;
 [Header("Temelreis")]
     const string walk="walk";
@@ -18,15 +23,107 @@ private Rigidbody2D rb;
 float inputhorizontal;
 Vector3 flips;
 
+public void temelcanclimb ( bool canclimbs )
+{
+
+Debug.Log("burasicalisiyor");
+  
+   canclimb = canclimbs ;
+  
+  
+}
     void Start()
     {
-        rb = GetComponent <Rigidbody2D> () ;
-
+        rb = GetComponent < Rigidbody2D > () ;
+          colliders = GetComponent < Collider2D > () ;
     }
 
     void Update()
     {
+     if ( canclimb && !tirmaniyorzaten )
+     {
+       if ( Input.GetKeyDown ( KeyCode.UpArrow ) )
+       {
+         tirmaniyorzaten = true ;
+        statemac.AnimationState( ladder ) ;
+        StartCoroutine ( upladdergo ( ) ) ;
+       
+        canclimb = false ;
+       }
+         if( Input.GetKeyDown ( KeyCode.DownArrow ) )
+       {
+         tirmaniyorzaten = true ;
+         statemac.AnimationState( ladder ) ;
+        StartCoroutine ( downladdergo ( ) ) ;
+       
+        canclimb = false;
+       }
+     }
+    
+    }
+    
+    public IEnumerator upladdergo()
+    {
+        
+        for ( int i = 0 ; i >= 0 ; i++ )
+        {
+            colliders.isTrigger = true ;
 
+            rb.constraints = RigidbodyConstraints2D.FreezePositionX ;
+             rb.gravityScale = 0 ;
+            this.transform.position = Vector2.MoveTowards( this.transform.position , saved.position + new Vector3 ( 0 , 2 , 0 ) , 0.3f ) ;
+            yield return new WaitForSeconds ( 0.1f ) ;
+           if ( i > 7 )
+           {
+            break;
+           }
+        }
+        
+        rb.gravityScale = 1;
+        
+        colliders.isTrigger = false ;
+        
+        tirmaniyorzaten = false ;
+        
+        rb.constraints = RigidbodyConstraints2D.None ;
+        
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation ;
+        
+        yield break ;
+    }
+
+    public IEnumerator downladdergo()
+    {
+         
+        for ( int i = 0 ; i >= 0 ; i++ )
+        {
+            rb.constraints=RigidbodyConstraints2D.FreezePositionX;
+       
+            colliders.isTrigger=true;
+       
+            rb.gravityScale=0;
+       
+            this.transform.position=Vector2.MoveTowards ( this.transform.position , saved.position - new Vector3 ( 0 , 2 , 0 ) , 0.3f ) ;
+       
+            yield return new WaitForSeconds ( 0.1f ) ;
+       
+           if ( i > 7 )
+           {
+            break;
+           }
+        }
+          rb.gravityScale = 1 ;
+       
+          tirmaniyorzaten = false ;
+       
+          rb.constraints = RigidbodyConstraints2D.None ;
+       
+          rb.constraints = RigidbodyConstraints2D.FreezeRotation ;
+       
+          colliders.isTrigger = false ;
+      
+
+          yield break ;
     }
     void FixedUpdate()
     {
@@ -34,12 +131,12 @@ Vector3 flips;
     }
     private void movement()
     {
-        float inputhorizontal = Input.GetAxis("Horizontal") ;
+        float inputhorizontal = Input.GetAxis( "Horizontal" ) ;
 
         rb.velocity = new Vector2 ( inputhorizontal * hiz , rb.velocity.y ) ;
 
 
-        if( inputhorizontal < 0 || inputhorizontal > 0)
+        if( inputhorizontal < 0 || inputhorizontal > 0 && !tirmaniyorzaten )
         {
         if( inputhorizontal < 0 )
         {
@@ -51,11 +148,15 @@ Vector3 flips;
 
             flip( 1 ); 
         }
-        statemac.AnimationState( walk ) ;
+        if(!tirmaniyorzaten)
+        {
+           statemac.AnimationState( walk ) ; 
+        }
+        
         
         }
 
-       if( inputhorizontal == 0)
+       if( inputhorizontal == 0 && !tirmaniyorzaten )
        {
 
         statemac.AnimationState( idle ) ;
@@ -67,6 +168,8 @@ Vector3 flips;
     private void flip( float flip )
     {
     flips = new Vector3 ( flip , 1 , 0 );
+    
     this.gameObject.transform.localScale = flips;
+    
     }
 }

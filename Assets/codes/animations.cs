@@ -9,9 +9,7 @@ public class animations : MonoBehaviour
     Animator animator;
     private string currentstate;
 
-    [Header("lover")]
-     const string walkl="walk";
-     const string kiss="kiss";
+    
 
 
      [Header("fatbadboy")]
@@ -31,7 +29,7 @@ public class animations : MonoBehaviour
         animator=GetComponent<Animator>();
        
     }
-public void AnimationState(string newstate)
+public void AnimationState( string newstate)
 {
     if(currentstate==newstate)return;
 
