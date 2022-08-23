@@ -34,7 +34,7 @@ int way,newway;
 
     int transright = Random.Range ( 0 , 3 ) ;
 
-    Debug.Log( "r" + transright ) ;
+    
  
     if(Vector2.Distance(this.gameObject.transform.position,posr[transright].position)>0)
     
@@ -110,7 +110,7 @@ int way,newway;
 
     int transleft = Random.Range( 0 , 3 ) ;
 
-     Debug.Log ( "l" + transleft ) ;
+     
 
      if( Vector2.Distance ( this.gameObject.transform.position , posl[ transleft ].position ) > 0 )
     {

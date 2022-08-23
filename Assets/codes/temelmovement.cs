@@ -11,6 +11,7 @@ Collider2D colliders;
 bool tirmaniyorzaten=false;
 bool canclimb;
 private Rigidbody2D rb;
+
 [Header("Temelreis")]
     const string walk="walk";
     const string punch="punch";
@@ -19,6 +20,7 @@ private Rigidbody2D rb;
     const string fall="fall";
     const string win="win";
     const string idle="idle";
+    public bool goup,godown;
 [SerializeField]float hiz=2.5f;
 float inputhorizontal;
 
@@ -27,12 +29,40 @@ Vector3 flips;
 public void temelcanclimb ( bool canclimbs )
 {
 
-Debug.Log("burasicalisiyor");
+
   
    canclimb = canclimbs ;
   
   
 }
+IEnumerator ColliderOpenClose()
+{
+GameObject[]ladders=GameObject.FindGameObjectsWithTag("Ladder");
+    for(int i=0;i<=ladders.Length-1;i++)
+    {
+        Collider2D coll=ladders[i].GetComponent<Collider2D>();
+        coll.enabled=false;
+        
+
+    }
+    yield return new WaitForSeconds(1f);
+      for(int i=0;i<=ladders.Length-1;i++)
+    {
+        Collider2D coll=ladders[i].GetComponent<Collider2D>();
+        coll.enabled=true;
+        
+
+    }
+    yield break;
+}
+public void laddercontrol()
+{
+    StartCoroutine(ColliderOpenClose());
+
+}
+//butun ladderşerin colliderlerini kapat acma fonksiyonu
+public bool notdown(bool iscandow){godown=iscandow; return iscandow;}
+public bool notup(bool iscando){ goup=iscando; return iscando;}
     void Start()
     {
         rb = GetComponent < Rigidbody2D > () ;
@@ -41,21 +71,23 @@ Debug.Log("burasicalisiyor");
 
     void Update()
     {
+        
      if ( canclimb && !tirmaniyorzaten )
      {
-       if ( Input.GetKeyDown ( KeyCode.UpArrow )  )
+       if ( Input.GetKeyDown ( KeyCode.UpArrow ) && goup )
        {
          tirmaniyorzaten = true ;
          
-        statemac.AnimationState( ladder ) ;
+         laddercontrol();
+        statemac.AnimationState ( ladder ) ;
         StartCoroutine ( upladdergo ( ) ) ;
        
         canclimb = false ;
        }
-         if( Input.GetKeyDown ( KeyCode.DownArrow )  )
+         if( Input.GetKeyDown ( KeyCode.DownArrow ) && godown )
        {
          tirmaniyorzaten = true ;
-         
+        laddercontrol();
          statemac.AnimationState( ladder ) ;
         StartCoroutine ( downladdergo ( ) ) ;
        
