@@ -16,7 +16,7 @@ public class badfatboy : MonoBehaviour
     public const string fall="fall";
     public const string love="love";
     public animations statemac;
-    public GameObject badboyheart,bubble,realgirl,visualgirl,rose,temelres;
+    public GameObject badboyheart,bubble,realgirl,visualgirl,rose,temelreis;
     public GameObject[]heartbroken;
 
     public void Start()
@@ -35,51 +35,60 @@ public class badfatboy : MonoBehaviour
         
         badboyheart.SetActive ( true ) ;
         //kalp setactive true olsun 
-        yield return new WaitForSeconds ( 0.5f ) ;
+        yield return new WaitForSeconds ( 1f ) ;
         rose.SetActive(true);
-        temelres.SetActive(false);
-         yield return new WaitForSeconds ( 0.5f ) ;
-
-          badboyheart.SetActive ( false ) ;
-          //gülü setacite true et
-
-          for ( int i = 0 ; i <= 1 ; i++ )
-          {
-            heartbroken[i].SetActive ( true ) ;
-          }
-         //kalp kırılsın  adam sinirlensin kalp sonra yok olsun
-          
-           yield return new WaitForSeconds ( 1f ) ;
-
-           statemac.AnimationState ( punchup ) ;
+        temelreis.SetActive(false);
+         yield return new WaitForSeconds ( 1f ) ;
 
            bubble.SetActive ( true ) ;
 
-           visualgirl.transform.localScale=new Vector3(-1,1,1);
-
-           for( int i = 0 ; i <= 1 ; i++ )
+           badboyheart.SetActive ( false ) ;
+         
+          for ( int i = 0 ; i <= 1 ; i++ )
           {
-            heartbroken [ i ].SetActive ( false ) ;
+            heartbroken [ i ].SetActive ( true ) ;
           }
-        yield return new WaitForSeconds(2f);
+
+           visualgirl.transform.localScale=new Vector3(-1,1,1);
+         
+          yield return new WaitForSeconds(0.5f);
+
+          statemac.AnimationState ( punchup ) ;
+
+
+          yield return new WaitForSeconds(0.5f);
+
+          // bossa yukarı ve sola doğru az bir rb.addforce uygulanmalı ve o sırada collideri kapatılmalı sonra 1 saniye sonra collider geri acılmalı
+          
+          for( int i = 0 ; i <= 1 ; i++ )
+          {
+
+            heartbroken [ i ].SetActive ( false ) ;
+
+          }
+
+        yield return new WaitForSeconds(1f);
+
         //aşşağı atlama for loopla
-         rose.SetActive(false);
-        temelres.SetActive(true);
+
+        rose.SetActive(false);
+        
+        temelreis.SetActive(true);
         //gülü setacite false et
-       bubble.SetActive ( false ) ;
+        bubble.SetActive ( false ) ;
 
-       realgirl.SetActive ( true ) ;
+        realgirl.SetActive ( true ) ;
        
-       visualgirl.SetActive ( false ) ;
+        visualgirl.SetActive ( false ) ;
 
-       gamestart = true ;
+        gamestart = true ;
 
         yield break;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        //gamestart true olduğunda 
     }
 }

@@ -2118,7 +2118,7 @@ MonoBehaviour:
   realgirl: {fileID: 1560567956}
   visualgirl: {fileID: 1218487454}
   rose: {fileID: 814771995}
-  temelres: {fileID: 436909775}
+  temelreis: {fileID: 436909775}
   heartbroken:
   - {fileID: 836060427}
   - {fileID: 1821263462}
