@@ -18,13 +18,13 @@ int way,newway;
 
    public void Start()
    {
+  // gamestart olunca spawnlarım yükseklik 5 olucak
     way=0;
-    
    StartCoroutine ( kizMechanic() ) ;
    }
    private IEnumerator kizMechanic()
    {
-   
+
    while(calis)
    { 
 
@@ -175,8 +175,7 @@ int way,newway;
     }
 
      }
-
-   
+     
    }
 
 }

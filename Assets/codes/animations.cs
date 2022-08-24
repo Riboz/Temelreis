@@ -7,34 +7,19 @@ public class animations : MonoBehaviour
     // Start is called before the first frame update
     
     Animator animator;
-    private string currentstate;
-
-    
-
-
-     [Header("fatbadboy")]
-     const string walkf="walk";
-     const string throwf="throw";
-     const string lookaround="lookaround";
-     const string punchup="punchup";
-     const string punchdown="punchdown";
-     const string winf="win";
-     const string fallf="fall";
-
-
-
+    private string currentstate;    
     
     void Start()
     {
         animator=GetComponent<Animator>();
        
     }
-public void AnimationState( string newstate)
+public void AnimationState( string newstate )
 {
-    if(currentstate==newstate)return;
+    if ( currentstate == newstate ) return ;
 
-    animator.Play(newstate);
-    currentstate=newstate;
+    animator.Play ( newstate ) ;
+    currentstate = newstate ;
 
 }
     // Update is called once per frame

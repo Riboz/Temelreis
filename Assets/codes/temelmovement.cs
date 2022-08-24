@@ -72,7 +72,12 @@ public bool notup(bool iscando){ goup=iscando; return iscando;}
     void Update()
     {
         
-     if ( canclimb && !tirmaniyorzaten )
+    climbingFonk();
+    
+    }
+    public void climbingFonk()
+    {
+        if ( canclimb && !tirmaniyorzaten )
      {
        if ( Input.GetKeyDown ( KeyCode.UpArrow ) && goup )
        {
@@ -94,7 +99,6 @@ public bool notup(bool iscando){ goup=iscando; return iscando;}
         canclimb = false;
        }
      }
-    
     }
     
     public IEnumerator upladdergo()
@@ -167,7 +171,11 @@ public bool notup(bool iscando){ goup=iscando; return iscando;}
     }
     void FixedUpdate()
     {
-     movement ( ) ;   
+        if(badfatboy.gamestart)
+        {
+         movement ( ) ; 
+        }
+       
     }
     private void movement()
     {
