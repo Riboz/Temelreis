@@ -171,7 +171,7 @@ public class badfatboy : MonoBehaviour
     {
        
      
-        yield return new WaitForSeconds ( 12f ) ;
+        yield return new WaitForSeconds ( 20f ) ;
         notdownicin = true ;
         notdownorup = false ;
         yield break ;

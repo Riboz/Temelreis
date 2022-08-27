@@ -39,36 +39,30 @@ public float timer=0;
 
     void OnTriggerStay2D(Collider2D temeldegecek)
     {
-       
-
-        
      if ( temeldegecek.CompareTag ( "Player" ) )
      {
-        
-        //eğer 1 kere inmiş ve distance i0 dan küçükse aşağı inemesin distance i 0 dan büyükse 1 kere inebilsin
-        
       if(lad==Laddertype.ladderspecial)
         {
          if ( temel.transform.position.y - this.transform.position.y < 0 )
       {
-        //aşağı inemesin boolu aktif
+      
         temelmov.notdown ( false ) ;
-        Debug.Log ( "asagi gidemez" ) ;
+      
       }
       else
       {
-        Debug.Log ( "asagi gider" ) ;
+        
         temelmov.notdown ( true ) ;
       }
        if ( temel.transform.position.y - this.transform.position.y > 0 )
       {
-        //aşağı inemesin boolu aktif
+        
         temelmov.notup ( false ) ;
-        Debug.Log ( "yukarı çıkamaz" ) ;
+       
       }
       else
       {
-        Debug.Log ( "yukarı gider" ) ;
+     
         temelmov.notup ( true ) ;
       }
         }
@@ -79,8 +73,6 @@ public float timer=0;
          temelmov.notdown ( true ) ;
      }
      
-     
-    
         if ( timer > 2)
         {
           temelmov.temelcanclimb ( true ) ;  

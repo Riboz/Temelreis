@@ -21,7 +21,7 @@ private Rigidbody2D rb;
     const string win="win";
     const string idle="idle";
     public bool goup , godown ;
-[SerializeField] float hiz = 2.5f ;
+[SerializeField] float hiz = 2.7f ;
 float inputhorizontal;
 
 Vector3 flips;
@@ -53,7 +53,7 @@ public void laddercontrol()
     StartCoroutine(ColliderOpenClose());
 
 }
-//butun ladderşerin colliderlerini kapat acma fonksiyonu
+
 public bool notdown(bool iscandow){godown=iscandow; return iscandow;}
 public bool notup(bool iscando){ goup=iscando; return iscando;}
     void Start()
@@ -102,9 +102,13 @@ public bool notup(bool iscando){ goup=iscando; return iscando;}
             colliders.isTrigger = true ;
 
             rb.constraints = RigidbodyConstraints2D.FreezePositionX ;
+
              rb.gravityScale = 0 ;
+            
             this.transform.position = Vector2.MoveTowards( this.transform.position , saved.position + new Vector3 ( 0 , 2 , 0 ) , 0.3f ) ;
+            
             yield return new WaitForSeconds ( 0.1f ) ;
+           
            if ( i > 7 )
            {
             break;
@@ -164,7 +168,7 @@ public bool notup(bool iscando){ goup=iscando; return iscando;}
     }
     void FixedUpdate()
     {
-        if(badfatboy.gamestart)
+        if(badfatboy.gamestart&&!isdead)
         {
          movement ( ) ; 
         }
@@ -213,5 +217,34 @@ public bool notup(bool iscando){ goup=iscando; return iscando;}
     
     this.gameObject.transform.localScale = flips;
     
+    }
+    public void OnTriggerEnter2D(Collider2D coll)
+    {
+        if(coll.gameObject.CompareTag("Boss"))
+        {
+            //dussun
+            
+            StartCoroutine(temeldeath());
+        }
+    }
+     public void OnCollisionEnter2D(Collision2D coll)
+    {
+        if(coll.gameObject.tag=="Boss")
+        {
+            //dussun
+            Debug.Log("yandi"); StartCoroutine(temeldeath());
+        }
+    }
+    public bool isdead = false ;
+    IEnumerator temeldeath()
+    {   isdead = true ;
+        colliders.isTrigger = true ;
+        rb.AddForce ( Vector2.up * 300 ) ;
+
+        yield return new WaitForSeconds ( 0.5f ) ;
+        statemac.AnimationState ( fall ) ;
+        yield return new WaitForSeconds ( 2f );
+        this.gameObject.SetActive ( false ) ;
+        yield break ;
     }
 }
