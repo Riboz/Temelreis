@@ -6,7 +6,7 @@ public class bordercode : MonoBehaviour
 {
     public  wihch Whivh;
     // Start is called before the first frame update
-    
+  
     void OnTriggerEnter2D(Collider2D coll)
     {
        if(coll.gameObject.CompareTag("Player")||coll.gameObject.CompareTag("Boss"))
@@ -15,10 +15,11 @@ public class bordercode : MonoBehaviour
         {
             coll.transform.position=new Vector3(-8.8f,coll.transform.position.y,coll.transform.position.z);
         }
-        else if(Whivh==wihch.sol)
+       else
         {
             coll.transform.position=new Vector3(8.8f,coll.transform.position.y,coll.transform.position.z);
         }
        }
+       
     }
 }

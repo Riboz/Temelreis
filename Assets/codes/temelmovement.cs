@@ -20,30 +20,23 @@ private Rigidbody2D rb;
     const string fall="fall";
     const string win="win";
     const string idle="idle";
-    public bool goup,godown;
-[SerializeField]float hiz=2.5f;
+    public bool goup , godown ;
+[SerializeField] float hiz = 2.5f ;
 float inputhorizontal;
 
 Vector3 flips;
 
 public void temelcanclimb ( bool canclimbs )
 {
-
-
-  
    canclimb = canclimbs ;
-  
-  
 }
 IEnumerator ColliderOpenClose()
 {
-GameObject[]ladders=GameObject.FindGameObjectsWithTag("Ladder");
-    for(int i=0;i<=ladders.Length-1;i++)
+GameObject[] ladders = GameObject.FindGameObjectsWithTag ( "Ladder" ) ;
+    for ( int i=0 ; i <= ladders.Length-1 ; i++ )
     {
-        Collider2D coll=ladders[i].GetComponent<Collider2D>();
+        Collider2D coll = ladders [ i ] . GetComponent< Collider2D > ( ) ;
         coll.enabled=false;
-        
-
     }
     yield return new WaitForSeconds(1f);
       for(int i=0;i<=ladders.Length-1;i++)

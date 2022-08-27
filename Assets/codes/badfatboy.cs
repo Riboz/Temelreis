@@ -6,6 +6,7 @@ public class badfatboy : MonoBehaviour
 {
     // Start is called before the first frame update
     public  static bool gamestart=false;
+    public bool dursun=false;
     [Header("fatbadboy")]
     public const string walk="walk";
     public const string throws="throw";
@@ -31,7 +32,7 @@ public class badfatboy : MonoBehaviour
         coll=GetComponent<Collider2D>();
 
     }
-    public bool notdownorup;
+    public bool notdownorup,vursun;
     public IEnumerator badboyloveshow()
     {
       
@@ -101,23 +102,31 @@ public class badfatboy : MonoBehaviour
         statemac.AnimationState(lookaround);
         yield break;
     }
-     public void badboyall()
+     public void Badboyall()
      {
         if(gamestart)
         {
             //distance dikey kontrolcüsü
          Distancey ( ) ;
+     
 
-        if ( !justone && notdownorup )
+    
+        if ( !justone && notdownorup&&!dursun)
         {
         
-            StartCoroutine ( randomwaywalk ( ) ) ;
+            StartCoroutine ( Randomwaywalk ( ) ) ;
              justone = true ;          
         }
-        else if(!notdownorup && !notdownicin)
+        else if(!notdownorup && !notdownicin&&!dursun)
         {
-        StartCoroutine(jumping());
+        StartCoroutine(Jumping());
         }
+     
+     if(dursun)
+     {
+        StopCoroutine(Randomwaywalk());
+       
+     }
          //random 2 değer arasından seçme
       //boss random bi şekilde belirli bir süre bir tarafa gitmeli 
       //boss her katta yaklaşık 6-9 saniye arası kalıcak
@@ -125,7 +134,7 @@ public class badfatboy : MonoBehaviour
       //boss temelin üstünde veya altında ise boss oraya doğru saldırıcaktır
         }
      }
-     IEnumerator jumping()
+     IEnumerator Jumping()
      {
         if ( distancey.y < -2 )
         {
@@ -155,9 +164,10 @@ public class badfatboy : MonoBehaviour
         
         }
      }
+     
      Vector3 distancey , distancex ;
      public bool notdownicin = true ;
-    IEnumerator notdownfonk ( )
+    IEnumerator Notdownfonk ( )
     {
        
      
@@ -180,27 +190,26 @@ public class badfatboy : MonoBehaviour
 
          notdownicin = false ;
     
-         StartCoroutine ( notdownfonk ( ) ) ;
+         StartCoroutine ( Notdownfonk ( ) ) ;
 
         }
-     Debug.Log ( "distane aynı yerdeğil y=" + distancey.y ) ;
-    
+     
     }
     else 
     {
         //farklı katmanda
         notdownorup = true ;
     }
-      //----------------------------------------------------------------------------------------------------
       
-     // eğer x belirli bir mesafede ve y 0 dan büyükse yukarıya zıplayarak yumruk atsın
+    
      //eğer y dan kücükse yeri süpürsün
-      
       
      }
      int walkdirection;
-     bool justone=false;
-     public IEnumerator randomwaywalk()
+     bool justone=false,punchs=true;
+     public LayerMask temel;
+     public Transform u1,u2,d1,d2;
+     public IEnumerator Randomwaywalk()
      {
         walkdirection=Random.Range(0,100);
 
@@ -208,23 +217,27 @@ public class badfatboy : MonoBehaviour
         if(walkdirection<50)
         {
             statemac.AnimationState(walk);
-            for(int i=0;i<=40;i++)
+           for(int i=0;i<=40;i++)
             {
                 this.transform.localScale=new Vector3(-1,1,1);
+                 if(dursun){break;}
                 this.gameObject.transform.position=Vector2.MoveTowards(this.gameObject.transform.position,new Vector3(10.15f,this.gameObject.transform.position.y,this.transform.position.z),0.2f);
                 yield return new WaitForSeconds(0.1f); 
             }
+          
         }
         
          if(walkdirection>=50)
         {
             statemac.AnimationState(walk);
-            for(int i=0;i<=40;i++)
+           for(int i=0;i<=40;i++)
             {   
                 this.transform.localScale=new Vector3(1,1,1);
+                if(dursun){break;}
                 this.gameObject.transform.position=Vector2.MoveTowards(this.gameObject.transform.position,new Vector3(-10.15f,this.gameObject.transform.position.y,this.transform.position.z),0.2f);
                 yield return new WaitForSeconds(0.1f); 
             }
+          
             
         }
         justone=false;
@@ -233,10 +246,87 @@ public class badfatboy : MonoBehaviour
         yield break;
      }
     // Update is called once per frame
+    //2 tane raycast atıcağım raycaste değildiğinde üste zıplayacak ya da alta zıplayacak
+    public bool a=false;
+      public void raycasts()
+      {
+        if(gamestart)
+        {
+       RaycastHit2D hita=Physics2D.Linecast(u1.position,u2.position,temel);
+       Debug.DrawLine(u1.position,u2.position,Color.red);
+       if(hita.collider!=null)
+       {
+        // ienumerator le zıplatarak vursun
+        if(!a)
+        {
+       StartCoroutine(jumpoattack());
+        a=true;
+        dursun=true;
+        
+       }
+       }
+       
+       RaycastHit2D hits=Physics2D.Linecast(d1.position,d2.position,temel);
+       Debug.DrawLine(d1.position,d2.position,Color.red);
+       if(hits.collider!=null)
+       {
+        
+        if(!a)
+        {
+       StartCoroutine(supurme());
+       a=true;
+       dursun=true;
+        }
+       
+
+       }
+        
+        }
+      }
+      
+      IEnumerator jumpoattack()
+      {
+             
+            statemac.AnimationState(lookaround);
+            yield return new WaitForSeconds ( 0.75f ) ; 
+            coll.isTrigger =true;
+            statemac.AnimationState(punchup);
+            rb.AddForce ( Vector2.up * 300 ) ;
+           
+            
+            yield return new WaitForSeconds ( 1.20f ) ;
+            statemac.AnimationState(walk);
+            coll.isTrigger =false;
+            dursun=false;
+            a=false;
+            yield break;
+      }
+      IEnumerator supurme()
+      {
+        statemac.AnimationState(lookaround);
+         yield return new WaitForSeconds ( 0.75f ) ; 
+         coll.isTrigger =true;
+         rb.gravityScale=0;
+        statemac.AnimationState(punchdown);
+        this.transform.position=this.transform.position+new Vector3(0,-1f,0);
+        yield return new WaitForSeconds ( 1f ) ; 
+        statemac.AnimationState(lookaround);
+        
+         this.transform.position=this.transform.position+new Vector3(0,1f,0);
+        yield return new WaitForSeconds ( 1f ) ; 
+
+         coll.isTrigger = false;
+         rb.gravityScale=1;
+         dursun=false;
+         a=false;
+         yield break;
+
+
+      }
     void FixedUpdate()
     {
-        
-        badboyall();
+        raycasts();
+        Badboyall();
         //gamestart true olduğunda 
     }
 }
