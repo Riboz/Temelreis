@@ -25,10 +25,13 @@ public class badfatboy : MonoBehaviour
     {
       
         StartCoroutine(badboyloveshow());
+
         rb=GetComponent<Rigidbody2D>();
+
         coll=GetComponent<Collider2D>();
 
     }
+    public bool notdownorup;
     public IEnumerator badboyloveshow()
     {
       
@@ -98,17 +101,142 @@ public class badfatboy : MonoBehaviour
         statemac.AnimationState(lookaround);
         yield break;
     }
-     public void badboymovement()
+     public void badboyall()
      {
-        /*
-        bossumuz rastgele olduğu katmanda temeli takip etmelidir ayrıca bossumuz temelin olduğu kata her 5-6 saniyede bir çıkmalıdır boss temelin katına çıkınca
-        iki şeyden birini yapmalıdır ya katın bossa yakın olan köşesine geçip temele doğrı şişe atmalı ya da temele doğru yürümeli ve temele yaklaşınca yumruk atmalı
-        ayrıca eğer temel bossun üstüne gelirse boss yukarı zıplayarak yumruk atmalı veya aşağı doğru süpürme hareketi yapmalı
-        */
+        if(gamestart)
+        {
+            //distance dikey kontrolcüsü
+         Distancey ( ) ;
+
+        if ( !justone && notdownorup )
+        {
+        
+            StartCoroutine ( randomwaywalk ( ) ) ;
+             justone = true ;          
+        }
+        else if(!notdownorup && !notdownicin)
+        {
+        StartCoroutine(jumping());
+        }
+         //random 2 değer arasından seçme
+      //boss random bi şekilde belirli bir süre bir tarafa gitmeli 
+      //boss her katta yaklaşık 6-9 saniye arası kalıcak
+      //boss eğer temelle aynı kattaysa dolaşmak yerine şişe atabilir
+      //boss temelin üstünde veya altında ise boss oraya doğru saldırıcaktır
+        }
+     }
+     IEnumerator jumping()
+     {
+        if ( distancey.y < -2 )
+        {
+            notdownorup = true ;
+            coll.isTrigger = true ;
+            statemac.AnimationState(punchup);
+            rb.AddForce ( Vector2.up * 220 ) ;
+            yield return new WaitForSeconds ( 1.25f ) ;
+            statemac.AnimationState(walk);
+            coll.isTrigger = false;
+            yield break;
+        }
+        else
+        {
+             
+            notdownorup = true ;
+
+            coll.isTrigger = true ;
+
+            rb.AddForce ( Vector2.up * 440 ) ;
+           statemac.AnimationState(punchup);
+            yield return new WaitForSeconds ( 1.2f ) ;
+         statemac.AnimationState(walk);
+            coll.isTrigger = false;
+
+            yield break;
+        
+        }
+     }
+     Vector3 distancey , distancex ;
+     public bool notdownicin = true ;
+    IEnumerator notdownfonk ( )
+    {
+       
+     
+        yield return new WaitForSeconds ( 12f ) ;
+        notdownicin = true ;
+        notdownorup = false ;
+        yield break ;
+    }
+     public void Distancey ( )
+     {
+      distancey = new Vector3 ( 0 ,temelreis.transform.position.y - this.transform.position.y , 0 ) ;
+
+      distancex = new Vector3 ( this.transform.position.y - temelreis.transform.position.y , 0 , 0 ) ;
+      
+    if ( distancey.y > 0.2f || distancey.y < - 0.2f )
+    {
+        //aynı katmanda
+        if ( notdownicin )
+        {
+
+         notdownicin = false ;
+    
+         StartCoroutine ( notdownfonk ( ) ) ;
+
+        }
+     Debug.Log ( "distane aynı yerdeğil y=" + distancey.y ) ;
+    
+    }
+    else 
+    {
+        //farklı katmanda
+        notdownorup = true ;
+    }
+      //----------------------------------------------------------------------------------------------------
+      
+     // eğer x belirli bir mesafede ve y 0 dan büyükse yukarıya zıplayarak yumruk atsın
+     //eğer y dan kücükse yeri süpürsün
+      
+      
+     }
+     int walkdirection;
+     bool justone=false;
+     public IEnumerator randomwaywalk()
+     {
+        walkdirection=Random.Range(0,100);
+
+        yield return new WaitForSeconds(1f);
+        if(walkdirection<50)
+        {
+            statemac.AnimationState(walk);
+            for(int i=0;i<=40;i++)
+            {
+                this.transform.localScale=new Vector3(-1,1,1);
+                this.gameObject.transform.position=Vector2.MoveTowards(this.gameObject.transform.position,new Vector3(10.15f,this.gameObject.transform.position.y,this.transform.position.z),0.2f);
+                yield return new WaitForSeconds(0.1f); 
+            }
+        }
+        
+         if(walkdirection>=50)
+        {
+            statemac.AnimationState(walk);
+            for(int i=0;i<=40;i++)
+            {   
+                this.transform.localScale=new Vector3(1,1,1);
+                this.gameObject.transform.position=Vector2.MoveTowards(this.gameObject.transform.position,new Vector3(-10.15f,this.gameObject.transform.position.y,this.transform.position.z),0.2f);
+                yield return new WaitForSeconds(0.1f); 
+            }
+            
+        }
+        justone=false;
+       
+        
+        yield break;
      }
     // Update is called once per frame
     void FixedUpdate()
     {
+        
+        badboyall();
         //gamestart true olduğunda 
     }
 }
