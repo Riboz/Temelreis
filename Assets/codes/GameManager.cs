@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     public int skor=-1;
     temelmovement Temelmovement;
-    public GameObject Restartpanel;
+    public GameObject Restartpanel,Restartpanel1;
     public GameObject[] kalps;
     int a=0;
     public void Start()
@@ -39,7 +39,9 @@ public class GameManager : MonoBehaviour
      if(skor==11)
      {
         //kazanma enumuna al
-        
+        Time.timeScale=0;
+        Restartpanel.SetActive(true); 
+         Restartpanel1.SetActive(true); 
      }
      
    }

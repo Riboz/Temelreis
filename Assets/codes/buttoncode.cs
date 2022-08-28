@@ -9,6 +9,7 @@ public void oyungir()
 {
     SceneManager.LoadScene("level");
     badfatboy.gamestart=false;
+    Time.timeScale=1;
 }
 public void exit()
 {
