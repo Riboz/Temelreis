@@ -8,6 +8,11 @@ public class buttoncode : MonoBehaviour
 public void oyungir()
 {
     SceneManager.LoadScene("level");
+    badfatboy.gamestart=false;
+}
+public void exit()
+{
+    Application.Quit();
 }
 
 }
