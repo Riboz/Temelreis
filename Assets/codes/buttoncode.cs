@@ -19,15 +19,13 @@ private void RequestInterstitial()
     #endif
     // Initialize an InterstitialAd.
     this.interstitial = new InterstitialAd(adUnitId);
-    
-      AdRequest request = new AdRequest.Builder().Build();
-
+    AdRequest request = new AdRequest.Builder().Build();
     // Load the interstitial with the request.
     this.interstitial.LoadAd(request);
 }
 
 
-  
+ 
 
 private void GameOver()
 {
@@ -36,27 +34,31 @@ private void GameOver()
   }
 }
 
-
+// buradan üstü reklam entegrasyonu kodları---------------------;
     public void Start()
     {
         // Initialize the Google Mobile Ads SDK.
         MobileAds.Initialize(initStatus => { });
+        //eklemeyi unutma
+        
+        RequestInterstitial();
         }
+
 
         
 public IEnumerator a()
 {
-    GameOver();
+   
     yield return new WaitForSeconds(4f);
-    interstitial.Destroy();
-
+   
+    
     SceneManager.LoadScene("level");
     yield break;
 }
 public void oyungir()
 {
-
     StartCoroutine(a());
+    GameOver();
     badfatboy.gamestart=false;
     Time.timeScale=1;
 }
